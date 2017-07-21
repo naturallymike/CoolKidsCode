@@ -13,7 +13,10 @@ namespace SomethingAmazing.Things
         //class constructor
         public Containers()
         {
-
         }
+
+        //properties
+
+        //methods
     }
 }

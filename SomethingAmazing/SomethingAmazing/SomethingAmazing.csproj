@@ -45,9 +45,10 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Things\Consumable.cs" />
-    <Compile Include="Things\Containers.cs" />
+    <Compile Include="Containers\Containers.cs" />
     <Compile Include="Things\Person.cs" />
     <Compile Include="Things\Thing.cs" />
+    <Compile Include="World\PhysicalForces.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -56,9 +57,7 @@
     <Content Include="ProgramDocumentation.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Characters\" />
-    <Folder Include="Containers\" />
-    <Folder Include="World\" />
+    <Folder Include="Things\Characters\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

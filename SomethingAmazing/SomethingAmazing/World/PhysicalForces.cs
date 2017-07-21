@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SomethingAmazing.Things
+namespace SomethingAmazing.World
 {
-    class Consumable
+    class PhysicalForces
     {
         //fields or no
 
         //class constructor
-        public Consumable()
+        public PhysicalForces()
         {
         }
 

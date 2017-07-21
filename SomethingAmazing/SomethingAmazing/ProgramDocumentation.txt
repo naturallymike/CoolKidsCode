@@ -1,35 +1,46 @@
-﻿Let's use this program to gain a better understanding of classes.
-Cool I think
+﻿	Let's use this program to gain a better understanding of classes.
+	Cool I think
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	Object Class
+	-appearance
+	 living
+	  consume,speak,sleep,move,clean
+	 inanimate
+	  appearance
+	Movement Class
+	 left,right,up,down,still
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	World(A1)
+	Map(SizeX,SizeY)
+	Thing(PosX,PosY)
+	 -posx,posy
+	=====================
+	Containers
+	-building
+	-room
+	-storageContainer/Utility:fridge,stove
+	=====================
+	Consumable(time,object,hot/cold)
+	-nutritional
+	-junkfood
+	-nonedible
+	-badtasting
+	=====================
+	Utilities
+	-bed
+	-lawnmower
+	-vehicle
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+World(x * y number of maps)
+-maps are connected together so that you can enter one by going
+ to the edge of another.
+	maps
+	-x * y number of tiles
+	-containers: floor,small object(any number of), large object(only one)
+WorldTick
+-things have an "activity" that is executed every tick.
+ :move to next square, whistle,chew,sleep, talk,activate,etc,.
+-whether the activity is insect like or cow like, an activity is 
+ executed every frame for every thing.
 
-
-Object Class
--appearance
- living
-  consume,speak,sleep,move,clean
- inanimate
-  appearance
-Movement Class
- left,right,up,down,still
-
-
- World(A1)
-Map(SizeX,SizeY)
-Thing(PosX,PosY)
- -posx,posy
-=====================
-Containers
--building
--room
--storageContainer/Utility:fridge,stove
-=====================
-Consumable(time,object,hot/cold)
--nutritional
--junkfood
--nonedible
--badtasting
-=====================
-Utilities
--bed
--lawnmower
--vehicle
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
