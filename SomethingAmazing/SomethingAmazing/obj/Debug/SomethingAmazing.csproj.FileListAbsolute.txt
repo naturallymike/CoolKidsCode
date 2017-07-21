@@ -3,3 +3,9 @@ C:\Users\RasterDeluge\Source\Repos\CoolKidsCode\SomethingAmazing\SomethingAmazin
 C:\Users\RasterDeluge\Source\Repos\CoolKidsCode\SomethingAmazing\SomethingAmazing\bin\Debug\SomethingAmazing.pdb
 C:\Users\RasterDeluge\Source\Repos\CoolKidsCode\SomethingAmazing\SomethingAmazing\obj\Debug\SomethingAmazing.exe
 C:\Users\RasterDeluge\Source\Repos\CoolKidsCode\SomethingAmazing\SomethingAmazing\obj\Debug\SomethingAmazing.pdb
+C:\Users\Sylar\Source\Repos\CoolKidsCode\SomethingAmazing\SomethingAmazing\bin\Debug\SomethingAmazing.exe.config
+C:\Users\Sylar\Source\Repos\CoolKidsCode\SomethingAmazing\SomethingAmazing\bin\Debug\SomethingAmazing.exe
+C:\Users\Sylar\Source\Repos\CoolKidsCode\SomethingAmazing\SomethingAmazing\bin\Debug\SomethingAmazing.pdb
+C:\Users\Sylar\Source\Repos\CoolKidsCode\SomethingAmazing\SomethingAmazing\obj\Debug\SomethingAmazing.csprojResolveAssemblyReference.cache
+C:\Users\Sylar\Source\Repos\CoolKidsCode\SomethingAmazing\SomethingAmazing\obj\Debug\SomethingAmazing.exe
+C:\Users\Sylar\Source\Repos\CoolKidsCode\SomethingAmazing\SomethingAmazing\obj\Debug\SomethingAmazing.pdb
