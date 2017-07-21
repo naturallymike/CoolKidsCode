@@ -8,5 +8,15 @@ namespace SomethingAmazing.Things
 {
     class Inanimate : Thing
     {
+        //fields or no
+
+        //class constructor
+        public Inanimate()
+        {
+        }
+
+        //properties
+
+        //methods
     }
 }
