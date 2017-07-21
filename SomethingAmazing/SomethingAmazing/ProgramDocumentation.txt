@@ -11,3 +11,25 @@ Object Class
   appearance
 Movement Class
  left,right,up,down,still
+
+
+ World(A1)
+Map(SizeX,SizeY)
+Thing(PosX,PosY)
+ -posx,posy
+=====================
+Containers
+-building
+-room
+-storageContainer/Utility:fridge,stove
+=====================
+Consumable(time,object,hot/cold)
+-nutritional
+-junkfood
+-nonedible
+-badtasting
+=====================
+Utilities
+-bed
+-lawnmower
+-vehicle

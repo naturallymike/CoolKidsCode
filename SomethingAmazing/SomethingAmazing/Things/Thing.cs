@@ -8,29 +8,31 @@ namespace SomethingAmazing.Things
 {
     class Thing
     {
+        //auto implemented properties
+        public int xPos { get; set; }
+        public int yPos { get; set; }
 
-        int xPos;
-        int yPos;
+        //class constructor
+        public Thing()
+        {
+        }
 
+        //class methods
         public void MoveUp()
         {
             this.yPos--;
-
         }
         public void MoveDown()
         {
             this.yPos++;
-
         }
         public void MoveLeft()
         {
             this.xPos--;
-
         }
         public void MoveRight()
         {
             this.xPos++;
-
         }
 
 

@@ -8,16 +8,9 @@ namespace SomethingAmazing
 {
     class Program
     {
-       
-
+        //We will loop the program components here, this shouldn't be much larger than 100 lines or whatever.
         static void Main(string[] args)
         {
-            Console.WriteLine("Hey.. This you room. What is your name");
-            Console.ReadLine
-
-
         }
-
-
     }
 }

@@ -8,5 +8,12 @@ namespace SomethingAmazing.Things
 {
     class Containers
     {
+        //fields or no
+
+        //class constructor
+        public Containers()
+        {
+
+        }
     }
 }
