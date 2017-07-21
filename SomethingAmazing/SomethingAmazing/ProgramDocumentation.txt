@@ -1,1 +1,2 @@
 ﻿Let's use this program to gain a better understanding of classes.
+Cool I think
