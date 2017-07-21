@@ -11,6 +11,7 @@ namespace SomethingAmazing
         static void Main(string[] args)
         {
             //Justins first submit/commit
+            //ohh was i not supposed to add this? <--- dorkycomment
             //Justins second comment hahahahahahahahahahaha
         }
     }
