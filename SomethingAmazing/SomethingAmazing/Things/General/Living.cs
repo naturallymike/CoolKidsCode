@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace SomethingAmazing.Things
 {
-    class Consumable : Inanimate
+    class Living : Thing
     {
         //fields or no
 
         //class constructor
-        public Consumable()
+        public Living()
         {
         }
 

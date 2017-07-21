@@ -48,8 +48,12 @@
     <Compile Include="Strings\Dialog.cs" />
     <Compile Include="Things\Consumable.cs" />
     <Compile Include="LocationState\Containers.cs" />
+    <Compile Include="Things\Floor.cs" />
+    <Compile Include="Things\General\Inanimate.cs" />
+    <Compile Include="Things\General\Living.cs" />
     <Compile Include="Things\Person.cs" />
-    <Compile Include="Things\Thing.cs" />
+    <Compile Include="Things\General\Thing.cs" />
+    <Compile Include="Things\Utilities.cs" />
     <Compile Include="World\Maps.cs" />
     <Compile Include="World\PhysicalForces.cs" />
     <Compile Include="World\ThingChemicalStatus.cs" />
