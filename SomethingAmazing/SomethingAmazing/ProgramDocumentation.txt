@@ -1,0 +1,13 @@
+﻿Let's use this program to gain a better understanding of classes.
+Cool I think
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Object Class
+-appearance
+ living
+  consume,speak,sleep,move,clean
+ inanimate
+  appearance
+Movement Class
+ left,right,up,down,still

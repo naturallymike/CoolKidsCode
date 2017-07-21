@@ -8,9 +8,16 @@ namespace SomethingAmazing
 {
     class Program
     {
+       
+
         static void Main(string[] args)
         {
-            //Justins first submit/commit
+            Console.WriteLine("Hey.. This you room. What is your name");
+            Console.ReadLine
+
+
         }
+
+
     }
 }
