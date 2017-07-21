@@ -8,6 +8,16 @@ Object Class
 Movement Class
 	 left,right,up,down,still
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Word creation
+The world should be set to begin with. So we will be just loading the 
+world or map at first. 
+But Objects are another story. We may be able to have a starting list and
+location of objects to start the game. And will store these in SaveState or a
+start file. This file may have an Array or be able to create an array
+with the object and its location. This array will have to be updated 
+each time an object is moved or person moves. 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 World(A1)
 Map(SizeX,SizeY)
 Thing(PosX,PosY)
