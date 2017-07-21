@@ -42,13 +42,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LocationState\SaveState.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Things\Consumable.cs" />
-    <Compile Include="Containers\Containers.cs" />
+    <Compile Include="LocationState\Containers.cs" />
     <Compile Include="Things\Person.cs" />
     <Compile Include="Things\Thing.cs" />
+    <Compile Include="World\Maps.cs" />
     <Compile Include="World\PhysicalForces.cs" />
+    <Compile Include="World\ThingChemicalStatus.cs" />
+    <Compile Include="World\WorldMap.cs" />
+    <Compile Include="World\WorldTick.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

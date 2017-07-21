@@ -31,16 +31,23 @@
 	-lawnmower
 	-vehicle
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-World(x * y number of maps)
+WorldMap(x * y number of maps)
 -maps are connected together so that you can enter one by going
  to the edge of another.
-	maps
-	-x * y number of tiles
-	-containers: floor,small object(any number of), large object(only one)
+Maps
+-x * y number of tiles
+-containers: floor,small object(any number of), large object(only one)
 WorldTick
 -things have an "activity" that is executed every tick.
  :move to next square, whistle,chew,sleep, talk,activate,etc,.
 -whether the activity is insect like or cow like, an activity is 
  executed every frame for every thing.
+PhysicalForces
+-kinetic energy might cause a dresser to fall over
+-wind blowing / weather
+ThingChemicalStatus
+-is it dripping wet
+-is it covered in honey
+-did it ingest a specific sommething
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
