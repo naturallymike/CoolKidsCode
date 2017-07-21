@@ -1,44 +1,42 @@
 ﻿	Let's use this program to gain a better understanding of classes.
 	Cool I think
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-	Object Class
-	-appearance
+Object Class
 	 living
 	  consume,speak,sleep,move,clean
 	 inanimate
-	  appearance
-	Movement Class
+Movement Class
 	 left,right,up,down,still
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-	World(A1)
-	Map(SizeX,SizeY)
-	Thing(PosX,PosY)
+World(A1)
+Map(SizeX,SizeY)
+Thing(PosX,PosY)
 	 -posx,posy
-	Containers
+Containers
 	-building
 	-room
 	-storageContainer/Utility:fridge,stove
-	Consumable(time,object,hot/cold)
-	Utilities
+Consumable(time,object,hot/cold)
+Utilities
 	-bed
 	-lawnmower
 	-vehicle
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-	WorldMap(x * y number of maps)
+WorldMap(x * y number of maps)
 	-maps are connected together so that you can enter one by going
 	 to the edge of another.
-	Maps
+Maps
 	-x * y number of tiles
 	-containers: floor,small object(any number of), large object(only one)
-	WorldTick
+WorldTick
 	-things have an "activity" that is executed every tick.
 	 :move to next square, whistle,chew,sleep, talk,activate,etc,.
 	-whether the activity is insect like or cow like, an activity is 
 	 executed every frame for every thing.
-	PhysicalForces
+PhysicalForces
 	-kinetic energy might cause a dresser to fall over
 	-wind blowing / weather
-	ThingChemicalStatus
+ThingChemicalStatus
 	-is it dripping wet
 	-is it covered in honey
 	-did it ingest a specific sommething

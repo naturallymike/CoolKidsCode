@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SomethingAmazing.Things
 {
-    class Person: Thing
+    class Person: Living
     {
         //class fields
         string Name = null;
