@@ -10,9 +10,10 @@ namespace SomethingAmazing
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("No more comments that are not awesome");
-
-
+            //Justins first submit/commit
+            //ohh was i not supposed to add this? <--- dorkycomment
+            //Justins second comment hahahahahahahahahahaha
+            // I made this different
         }
     }
 }
