@@ -34,9 +34,26 @@ namespace SomethingAmazing.Things
         {
             this.xPos++;
         }
+        
+        public void MoveToTarget()
+        {
+            // These are variables that need to be made during Obj Creation
+            int targetX, targetY = -50;
+            int locationX, locationY = 100;
+            int MoveValueX;
+            int MoveValueY;
+        
+            MoveValueX = locationX - targetX;
+            MoveValueY = locationY - targetY;
 
 
 
+          xPos =  xPos + MoveValueX;
+          yPos =  yPos + MoveValueY;
+
+        }
+
+        
 
 
 
