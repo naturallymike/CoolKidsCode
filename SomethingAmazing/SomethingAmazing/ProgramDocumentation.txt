@@ -17,64 +17,6 @@ start file. This file may have an Array or be able to create an array
 with the object and its location. This array will have to be updated 
 each time an object is moved or person moves. 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-CPU Movement Logic
-
-Object creation = -ObjType//What is it (Ball, Table, Tree)
-                  -ObjVariation//Things like color, size, weight, 
-                  -ObjLocation// The place where the object is spawned
-                  1- 1(The catagory such as plants or house objects)02(The number of that object in that Catagory. So #53 out of 79 objs.) {3} as xx. And 4 as yy
-            So the objects value is something like 5,06,01,23 or 5060123
-
-
-Once the obj is created it will have a xx,yy location. And if it is moved it by a player or some other in game force the (Objxy += (Mass*Velocity)) and the (Objxy -= (Mass* Velocity)). 
-                    Moving Force of Acting Object = Mass of the Obj X                                Speed or Velocity of Obj. Force = Mass*Velocity
-
-                    ObjMotion = FORCE + (Angle of impact)
-
-                     1 2 3 4 5 6 7 8 9 10
-                     2_a b_c_d_e__________
-                     3_f_g_h_i_j___________
-                     4_k_l_m_n_o___________
-                     5_p_q_r_s_t___________
-                     6 u_v_w_x_y___________
-                     7_z___________________
-                     8__l__________________
-                    
-The area labled with letters are grid locations. Lets do some grid math Bitches.
-
-
-               Lets say we want to mave to location "i" and we are at "s"  
-               That is easy ObjY += 2;..... Now say we want to move to "g"                
-			   instead. Starting from "s" now we need ObjY += 2; ObjX -= 2;.
-
-Pretty simple but we need an algorithim to do this. We could use something like this...
-             Take values from top to bottom. And the first value is "g" which is         
-			 equal to 3,3 and the second is "s" its value is 5,5. We could say 
-        5,5 - 3,3 = Pos 2,2. So both 2 and two are positive. Meaning you need to 
-     move up two +Y2 and left two +X2. Well that worked lets do one more.
-
-Okay this time we will do our starting point at "z" and Target is "e". e = 2,6 and  z = 7,2, so that is 2,6 - 7,2...
-                                  e    2, 6
-                                  z  - 7, 2
-                                    = -5 +4   
-
-So thats -5Y and +4X but we need to move the exact opposite direction. So instead of getting whatever is on top first 
-we will get whatever is at the bottom first because it will always be larger. Not sure if that works each time but we
-will see. So lets try this again
-
-                                           
-                                 z     7, 2
-                                 e   - 2, 6
-                                    = +5 -4   
-This time it worked. To get to the target. But as I think about it that won't work for all instances either.
-But I have the answer. If you always put the starting location at the top and the target at the bottom you will have 
-the right sign each time. So if your up and need to go down you will get a negative number for Y and if you need to go
-up you will a positive number for Y. The same goes for X but just the inverse, so I may need to flip the number grid 
-on the top to get larger as you go left. So numbers get larger as you go down and larger as you go left. Then the 
-start lacation minus the target will give you the steps needed to get to target from start. And I could also write a
-function that draws a line from start to target and using the pathagerion theorim I can make a way to move diagoally  
-                      
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 World(A1)
 Map(SizeX,SizeY)
 Thing(PosX,PosY)
