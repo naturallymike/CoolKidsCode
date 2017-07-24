@@ -57,8 +57,8 @@
     <Compile Include="Things\General\Thing.cs" />
     <Compile Include="Things\Utilities.cs" />
     <Compile Include="World\Maps.cs" />
-    <Compile Include="World\PhysicalForces.cs" />
-    <Compile Include="World\ThingChemicalStatus.cs" />
+    <Compile Include="Things\General\PhysicalForces.cs" />
+    <Compile Include="Things\General\ThingChemicalStatus.cs" />
     <Compile Include="World\WorldMap.cs" />
     <Compile Include="World\WorldTick.cs" />
   </ItemGroup>
