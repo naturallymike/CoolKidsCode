@@ -9,8 +9,8 @@ namespace SomethingAmazing.Things
     class Thing
     {
         //auto implemented properties
-        public int xPos { get; set; }
-        public int yPos { get; set; }
+        public int XPos { get; set; }
+        public int YPos { get; set; }
 
         //class constructor
         public Thing()
@@ -20,25 +20,20 @@ namespace SomethingAmazing.Things
         //class methods
         public void MoveUp()
         {
-            this.yPos--;
+            this.YPos--;
         }
         public void MoveDown()
         {
-            this.yPos++;
+            this.YPos++;
         }
         public void MoveLeft()
         {
-            this.xPos--;
+            this.XPos--;
         }
         public void MoveRight()
         {
-            this.xPos++;
+            this.XPos++;
         }
-
-
-
-
-
-
+        
     }
 }
