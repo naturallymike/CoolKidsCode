@@ -38,8 +38,10 @@ namespace SomethingAmazing.Things
         public void MoveToTarget()
         {
             // These are variables that need to be made during Obj Creation
-            int targetX, targetY = -50;
-            int locationX, locationY = 100;
+            int targetX = 20;
+            int targetY = -50;
+            int locationX = 20;
+            int locationY = 100;
             int MoveValueX;
             int MoveValueY;
         
@@ -53,7 +55,41 @@ namespace SomethingAmazing.Things
 
         }
 
-        
+        public void MoveToDiag()
+        {
+            // These are variables that need to be made during Obj Creation
+            int targetX = 20;
+            int targetY = -50;
+            int locationX = 20;
+            int locationY = 100;
+            int MoveValueX;
+            int MoveValueY;
+
+            MoveValueX = locationX - targetX;
+            MoveValueY = locationY - targetY;
+
+            if (xPos > xPos + MoveValueX)
+            {
+                xPos++;
+            }
+            if (xPos < xPos + MoveValueX)
+            {
+                xPos--;
+            }
+
+
+            if (yPos > yPos + MoveValueY)
+            {
+                yPos++;
+            }
+            if (yPos < yPos + MoveValueY)
+            {
+                yPos--;
+            }
+
+        }
+
+
 
 
 

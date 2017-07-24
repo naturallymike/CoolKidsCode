@@ -46,6 +46,7 @@
     <Compile Include="LocationState\SaveState.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Stories\StoryOne.cs" />
     <Compile Include="Strings\Dialog.cs" />
     <Compile Include="Things\Consumable.cs" />
     <Compile Include="LocationState\Containers.cs" />
