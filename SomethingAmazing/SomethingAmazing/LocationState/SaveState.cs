@@ -20,7 +20,7 @@ namespace SomethingAmazing.LocationState
 
             int[] Obj = new int[ObjNum];
 
-            Obj[0]  = 12013044;
+          /*  Obj[0]  = 12013044;
             Obj[1]  = 1x1y;
             Obj[2]  = 1x1y;
             Obj[3]  = 1x1y;
@@ -45,6 +45,7 @@ namespace SomethingAmazing.LocationState
             Obj[22] = 1x1y;
             Obj[23] = 1x1y;
 
+            */
         }
 
         //properties

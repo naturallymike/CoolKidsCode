@@ -9,8 +9,8 @@ namespace SomethingAmazing.Things
     class Thing
     {
         //auto implemented properties
-        public int XPos { get; set; }
-        public int YPos { get; set; }
+        public int xPos { get; set; }
+        public int yPos { get; set; }
 
         //class constructor
         public Thing()
@@ -20,20 +20,78 @@ namespace SomethingAmazing.Things
         //class methods
         public void MoveUp()
         {
-            this.YPos--;
+            this.yPos--;
         }
         public void MoveDown()
         {
-            this.YPos++;
+            this.yPos++;
         }
         public void MoveLeft()
         {
-            this.XPos--;
+            this.xPos--;
         }
         public void MoveRight()
         {
-            this.XPos++;
+            this.xPos++;
         }
         
+        public void MoveToTarget()
+        {
+            // These are variables that need to be made during Obj Creation
+            int targetX = 20;
+            int targetY = -50;
+            int locationX = 20;
+            int locationY = 100;
+            int MoveValueX;
+            int MoveValueY;
+        
+            MoveValueX = locationX - targetX;
+            MoveValueY = locationY - targetY;
+
+
+
+          xPos =  xPos + MoveValueX;
+          yPos =  yPos + MoveValueY;
+
+        }
+
+        public void MoveToDiag()
+        {
+            // These are variables that need to be made during Obj Creation
+            int targetX = 20;
+            int targetY = -50;
+            int locationX = 20;
+            int locationY = 100;
+            int MoveValueX;
+            int MoveValueY;
+
+            MoveValueX = locationX - targetX;
+            MoveValueY = locationY - targetY;
+
+            if (xPos > xPos + MoveValueX)
+            {
+                xPos++;
+            }
+            if (xPos < xPos + MoveValueX)
+            {
+                xPos--;
+            }
+
+
+            if (yPos > yPos + MoveValueY)
+            {
+                yPos++;
+            }
+            if (yPos < yPos + MoveValueY)
+            {
+                yPos--;
+            }
+
+        }
+
+
+
+
+
     }
 }
