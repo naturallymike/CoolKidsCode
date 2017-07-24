@@ -12,9 +12,15 @@ namespace SomethingAmazing
         //We will loop the program components here, this shouldn't be much larger than 100 lines or whatever.
         static void Main(string[] args)
         {
-            StoryOne.Intro();
+            StoryLogic sl = new StoryLogic();
 
-            
+
+          //  StoryOne.Intro();
+
+
+            sl.StringCruncher();
+
+
         }
     }
 }

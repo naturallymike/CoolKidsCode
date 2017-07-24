@@ -9,7 +9,7 @@ namespace SomethingAmazing.Stories
 {
     class StoryOne
     {
-        public static void Intro()
+        public void Intro()
         {
             Console.WriteLine("This game was made by.....");
 
@@ -33,6 +33,8 @@ namespace SomethingAmazing.Stories
             Console.ReadKey();
 
         }
+
+
 
     }
 }
