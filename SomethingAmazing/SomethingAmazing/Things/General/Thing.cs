@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SomethingAmazing.Things
 {
-    class Thing
+    class Thing : PhysicalForces
     {
         //auto implemented properties
         public int xPos { get; set; }

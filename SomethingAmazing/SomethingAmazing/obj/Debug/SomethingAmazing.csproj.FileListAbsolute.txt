@@ -9,3 +9,4 @@ C:\Users\Justin.Mathis\Source\Repos\CoolKidsCode\SomethingAmazing\SomethingAmazi
 C:\Users\Justin.Mathis\Source\Repos\CoolKidsCode\SomethingAmazing\SomethingAmazing\bin\Debug\SomethingAmazing.pdb
 C:\Users\Justin.Mathis\Source\Repos\CoolKidsCode\SomethingAmazing\SomethingAmazing\obj\Debug\SomethingAmazing.exe
 C:\Users\Justin.Mathis\Source\Repos\CoolKidsCode\SomethingAmazing\SomethingAmazing\obj\Debug\SomethingAmazing.pdb
+C:\Users\Justin.Mathis\Source\Repos\CoolKidsCode\SomethingAmazing\SomethingAmazing\obj\Debug\SomethingAmazing.csprojResolveAssemblyReference.cache

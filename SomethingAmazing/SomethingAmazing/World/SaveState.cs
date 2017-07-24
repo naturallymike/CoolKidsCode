@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SomethingAmazing.LocationState
+namespace SomethingAmazing.World
 {
-    class SaveState
+    class SaveState : Containers
     {
         //fields or no
 

@@ -24,14 +24,14 @@ namespace SomethingAmazing.Stories
 
             
 
-            foreach (string i in StringNumber)
-            {
+            //foreach (string i in StringNumber)
+            //{
                
-                Console.WriteLine(i);
+            //    Console.WriteLine(i);
 
-                Thread.Sleep(3000);
+            //    Thread.Sleep(3000);
               
-            }
+            //}
         }
     }
 }
