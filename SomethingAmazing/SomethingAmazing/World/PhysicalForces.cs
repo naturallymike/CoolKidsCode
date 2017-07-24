@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SomethingAmazing.World
 {
-    class PhysicalForces
+    class PhysicalForces : ThingChemicalStatus
     {
         //fields or no
 
