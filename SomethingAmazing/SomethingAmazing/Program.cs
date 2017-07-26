@@ -15,8 +15,9 @@ namespace SomethingAmazing
             StoryLogic sl = new StoryLogic();
 
 
-          //  StoryOne.Intro();
+            StoryOne.Intro();
 
+            sl.NextSene();
 
             sl.StringCruncher();
 

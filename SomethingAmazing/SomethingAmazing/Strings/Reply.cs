@@ -5,23 +5,26 @@ using System.Text;
 using System.Threading.Tasks;
 using SomethingAmazing.Stories;
 
+
 namespace SomethingAmazing.Strings
 {
     
-    class Reply
+    public class Reply
     {
 
-      
-        int something = 500;
 
         // This method is for future TalkBots in the game. Each string in the array will have a sorting number, and certain numbers can go
         //together and some can't
-        public void CharReplies()
-        {
-            
+        public void CharReplies( params string[] CharRe)
+        { 
+          //  List<string> CharRe = new List<string>();
 
-            string[] CharRe = new string[100];
-            
+           // List<string> CharRe = new List<string>(new string[11]);
+
+            // string[] CharRe = new string[100];
+
+
+
 
             CharRe[0] = "Hello";
             CharRe[1] = "Hi";
@@ -29,7 +32,15 @@ namespace SomethingAmazing.Strings
             CharRe[3] = "Me";
             CharRe[4] = "?";
             CharRe[5] = "";
-            CharRe[1] = "";
+            CharRe[6] = "";
+            CharRe[7] = "";
+            CharRe[8] = "";
+            CharRe[9] = "";
+            CharRe[10] = ""; 
+         /*   CharRe[2] = "";
+            CharRe[3] = "";
+            CharRe[4] = "";
+            CharRe[5] = "";
             CharRe[2] = "";
             CharRe[3] = "";
             CharRe[4] = "";
@@ -38,48 +49,33 @@ namespace SomethingAmazing.Strings
             CharRe[3] = "";
             CharRe[4] = "";
             CharRe[5] = "";
-            CharRe[2] = "";
-            CharRe[3] = "";
-            CharRe[4] = "";
-            CharRe[5] = ""; 
-            CharRe[2] = "";
-            CharRe[3] = "";
-            CharRe[4] = "";
-            CharRe[5] = "";
-            
+          */  
         }
-        public void Sentences(params string[] talks)
+
+
+
+        public string[] Sentences()
         {
             StoryLogic L = new StoryLogic();
 
             string[] talk = new string[11];
 
-             talks = talk;
-
-            //int Sleep = 3000;
-         
-
-            //L.StringCruncher( talk);
-
          
             
-            
+            talk[0] = "Little Girl voice... What is he???";
+            talk[1] = "Mother.... I don't know sweetie";
+            talk[2] = "Is he asleep mom?";
+            talk[3] = "Yes. Stay here with him and make sure he doesn't leave. I am going to get some supplies, I will be a while";
+            talk[4] = "''''BYE MOM''' BYE baby''''";
+            talk[5] = "......................";
+            talk[6] = "Lalal de de, la de da da. I wonder if you are really out??? What do you look like under here......";
+            talk[7] = "Oh wow... so soooo wow. I wounder if you can feel anything???? ";
+            talk[8] = "You have such nice hair mr.guy. But you don't feel my hands in it do you.... Can you feel your hands?";
+            talk[9] = "What about here or here. how about right here giggles... Looks different now...Hmmm bites lip a little. Guys are strange, but I like youmr.guy";
+            talk[10] = "HO M...Ggggg You moved.. Hey YOU! Are you awake now???....Your eyes are open!! Heyyy I'm Kira... What is you name?";
 
 
-            talk[0] = "hello";
-            talk[1] = "Yo yo yo";
-            talk[2] = "Okay";
-            talk[3] = "This";
-            talk[4] = "";
-            talk[5] = "";
-            talk[6] = "";
-            talk[7] = "";
-            talk[8] = "";
-            talk[9] = "";
-            talk[10] = "";
-
-      
-
+            return (talk);
         }
     }
 }
