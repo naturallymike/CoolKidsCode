@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SomethingAmazing.World
 {
-    class WorldTick
+    class WorldTick : SaveState
     {
         //fields or no
 

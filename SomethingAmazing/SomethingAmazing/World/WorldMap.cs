@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SomethingAmazing.World
 {
-    class WorldMap
+    class WorldMap : Maps
     {
         //fields or no
 

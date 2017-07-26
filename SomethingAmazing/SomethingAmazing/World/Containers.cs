@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SomethingAmazing.Things
+namespace SomethingAmazing.World
 {
-    class Containers
+    class Containers : Maps
     {
         //fields or no
 
