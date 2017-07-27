@@ -15,10 +15,10 @@ namespace SomethingAmazing.Stories
 
             Thread.Sleep(4000);
 
-            Console.WriteLine("\n\nJustin and.....");
+            Console.WriteLine("\n\nJUSTIN and.....");
 
             Thread.Sleep(2000);
-            Console.WriteLine("Michael Mathis...");
+            Console.WriteLine("MICHAEL MATHIS...");
 
             Thread.Sleep(3000);
 
@@ -26,24 +26,11 @@ namespace SomethingAmazing.Stories
 
             Thread.Sleep(6000);
 
-            Console.WriteLine("\n\n\n\n\n\n....Hackphilla... ");
+            Console.WriteLine("\n\n\n\n\n\n                               .............HACKPHILLA.............. ");
 
             Thread.Sleep(2000);
 
-          /*  Console.WriteLine(".\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n" +
-                ".\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n" +
-                ".\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n" +
-                ".\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n" +
-                ".\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n" +
-                ".\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n" +
-                ".\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n" +
-                ".\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n");
-
-            Thread.Sleep(2000);
-          
-
-            Console.ReadKey();
-            */
+            
         }
 
 

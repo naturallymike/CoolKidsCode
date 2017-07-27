@@ -14,10 +14,11 @@ namespace SomethingAmazing.Stories
 
 
         Reply p = new Reply();
+        bool IsSleeping;
+        int StrLen;
+
+
       
-
-
-        // Issues with the foreach loop. I need to access the string arrays inside the logic loop but I am getting errors. 
 
         public void StringCruncher()
         {
@@ -27,11 +28,12 @@ namespace SomethingAmazing.Stories
 
             foreach (string i in talks)
             {
-               
-                Console.WriteLine(i);
-
-                Thread.Sleep(4000);
-              
+                StrLen = i.Length;
+                Console.WriteLine("\n"+i);               
+                IsSleeping = true;
+                DialogIntervel();
+                Thread.Sleep(100* i.Length);
+                IsSleeping = false;
             }
         }
 
@@ -41,22 +43,27 @@ namespace SomethingAmazing.Stories
             string Period2 = ".";
             string Period3 = "...................................................................................................................";
             int Intervel = 300;
+
+            // Loop for making dots on the screen when changing scens
             for (int i = 0; i < 200; i++)
             {
                
-
+                //Writes dots to screen
                 Console.WriteLine(Period);
+
+                // Makes dot line longer up till the end of the screen
                 if (Period.Length <  Console.WindowWidth)
                 {
                     Period = Period + (Period2);
                 }
-               
+
+               // Makes dots print faster over time
                 if (Intervel >= 20)
                 {
                     Intervel = Intervel - 10;
                 }
                 
-
+                //  Gives time space between printing dots
                 Thread.Sleep(Intervel);
             }
            
@@ -64,11 +71,15 @@ namespace SomethingAmazing.Stories
 
         public void DialogIntervel()
         {
-            int time = 333;
-            Thread.Sleep(2000);
-           // if (Thread.Sleep(2000) = 333)
+            
+            if (IsSleeping == true)
             {
-
+                for (int i =0; i < StrLen; i++)
+                {
+                    Console.Write(".");
+                    Thread.Sleep((100 * StrLen) / StrLen);
+                }
+                
             }
 
         }
