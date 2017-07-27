@@ -16,6 +16,7 @@ namespace SomethingAmazing.Stories
         Reply p = new Reply();
         bool IsSleeping;
         int StrLen;
+        int strInterval;
 
 
       
@@ -31,8 +32,9 @@ namespace SomethingAmazing.Stories
                 StrLen = i.Length;
                 Console.WriteLine("\n"+i);               
                 IsSleeping = true;
+                strInterval = 100 * i.Length;
                 DialogIntervel();
-                Thread.Sleep(100* i.Length);
+                Thread.Sleep(strInterval);
                 IsSleeping = false;
             }
         }
@@ -41,7 +43,7 @@ namespace SomethingAmazing.Stories
         {
             string Period = ".";
             string Period2 = ".";
-            string Period3 = "...................................................................................................................";
+    
             int Intervel = 300;
 
             // Loop for making dots on the screen when changing scens
@@ -68,7 +70,7 @@ namespace SomethingAmazing.Stories
             }
            
         }
-
+        // Makes a dotted line after each statment made by the PCU's
         public void DialogIntervel()
         {
             
@@ -78,11 +80,20 @@ namespace SomethingAmazing.Stories
                 {
                     Console.Write(".");
                     Thread.Sleep((100 * StrLen) / StrLen);
+                    strInterval = 0;
                 }
                 
             }
 
         }
+        // This function needs parammeters to tell it where to put the information recieved from user
+        public void GetInfo(int Location,out string Input)
+        {
+          
+           string userInput = Console.ReadLine();
+            Input = userInput;
+        }
+
 
     }
 }

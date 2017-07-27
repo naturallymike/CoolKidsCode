@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SomethingAmazing.Stories;
+using SomethingAmazing.Things;
 
 namespace SomethingAmazing
 {
@@ -13,15 +14,17 @@ namespace SomethingAmazing
         static void Main(string[] args)
         {
             StoryLogic sl = new StoryLogic();
+            Person p = new Person();
+            StoryOne so = new StoryOne();
 
 
             StoryOne.Intro();
-
+            
             sl.NextSene();
 
             sl.StringCruncher();
 
-
+            so.GameStory();
         }
     }
-}
+} 

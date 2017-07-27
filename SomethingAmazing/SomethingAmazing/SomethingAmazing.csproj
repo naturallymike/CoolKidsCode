@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Things\Users.cs" />
     <Compile Include="World\CreateState.cs" />
     <Compile Include="World\SaveState.cs" />
     <Compile Include="Program.cs" />
@@ -65,7 +66,9 @@
     <Compile Include="World\WorldTick.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="ProgramDocumentation.txt" />
