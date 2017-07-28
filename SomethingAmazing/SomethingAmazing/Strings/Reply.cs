@@ -80,7 +80,7 @@ namespace SomethingAmazing.Strings
             talk[9] = "What about here or here. how about right here giggles... Looks different now...Hmmm bites lip a little. Guys are strange," +
                        " but I like you mr.guy";
             talk[10] = "HO M...Ggggg You moved.. Hey YOU! Are you awake now???....Your eyes are open!! Heyyy I'm Kira... What is you name?" +
-                "\n Enter your Name \nneral ";
+                "\n Enter your Name \n";
 
 
             

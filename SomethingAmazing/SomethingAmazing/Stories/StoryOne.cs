@@ -58,8 +58,8 @@ namespace SomethingAmazing.Stories
            int  Location= 32;
            
 
-            sl.GetInfo(Location, out string Input);
-            string uName = Input;
+            sl.GetInfo(Location, out string User1Info.Name);
+           // User1Info.Name = Input;
 
 
             Console.WriteLine("Oh really {0} is it... Well {1} do you wanna play with me?", User1Info.Name, User1Info.Name);

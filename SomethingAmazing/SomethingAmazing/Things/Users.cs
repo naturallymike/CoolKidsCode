@@ -7,12 +7,12 @@ using SomethingAmazing.Things;
 
 namespace SomethingAmazing.Things
 {
-    class Users
+    class Users : Person
     {
       
         public void User1()
         {
-            Person User1Info = new Person();
+            Users User1Info = new Users();
 
             User1Info.Name = "";
             User1Info.Age = 0;
